@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de test pour GTM et GA4</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        header h1 {
+            color: white;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        .boutons {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            background-color: #007BFF;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .images img {
+            width: 500px; /* Fixed width */
+            height: 300px; /* Fixed height */
+            object-fit: cover; /* Ensures the image covers the entire area */
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contenu {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .contenu div {
+            flex: 1;
+            margin: 10px;
+        }
+        footer p {
+            margin: 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact label {
+            margin-top: 10px;
+        }
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .contact button {
+            margin-top: 10px;
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue sur ma page de testag !</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>À propos de cette page</h2>
+            <p>Cette page est créée pour tester la configuration de Google Tag Manager et Google Analytics 4. Elle contient divers éléments comme des boutons, des images, et différentes sections pour suivre les interactions des utilisateurs.</p>
+        </section>
+
+        <hr>
+
+        <section class="boutons">
+            <h2>Boutons interactifs</h2>
+            <button id="button1">Voir les avantages du GTM</button>
+            <button id="button2">Comment fonctionne GA4</button>
+        </section>
+
+        <hr>
+
+        <section class="images">
+            <h2>Ressources</h2>
+            <div class="contenu">
+                <div>
+                    <figure>
+                        <a href="https://www.yumens.fr/expertise/analytics/web-analyse/" target="_blank">
+                            <img src="https://yumens.b-cdn.net/wp-content/uploads/2021/02/web-analyse-datastudio.svg" alt="Qu'est ce que la Web Analyse ?">
+                        </a>
+                        <figcaption>Qu'est-ce que la Web Analyse ?</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <a href="https://medium.com/@support_5091/what-is-google-tag-manager-its-uses-workings-benefits-578d778b6e21" target="_blank">
+                            <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*JqTIQPxMnaC1jCbXA2zkbQ.png" alt="What is Google Tag Manager, its uses, workings & Benefits">
+                        </a>
+                        <figcaption>What is Google Tag Manager, its uses, workings & Benefits</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Contenu supplémentaire</h2>
+            <p>Google Tag Manager (GTM) est un outil puissant qui permet aux spécialistes du marketing de gérer les balises de site Web sans avoir besoin de modifier directement le code du site. Voici quelques-unes des principales utilisations de GTM :</p>
+            <ul>
+                <li><strong>Installation de balises analytiques :</strong> GTM facilite l'installation et la gestion de balises telles que Google Analytics.</li>
+                <li><strong>Suivi des conversions :</strong> Configurez facilement le suivi des conversions pour des plateformes publicitaires comme Google Ads et Facebook Ads.</li>
+                <li><strong>Suivi des événements :</strong> Suivez les interactions spécifiques des utilisateurs, telles que les clics sur les boutons, les téléchargements de fichiers, et plus encore.</li>
+                <li><strong>Gestion centralisée :</strong> Gérez toutes vos balises à partir d'une seule interface, ce qui simplifie les mises à jour et les déploiements.</li>
+                <li><strong>Déclencheurs personnalisés :</strong> Utilisez des déclencheurs pour spécifier quand et où vos balises doivent être exécutées.</li>
+            </ul>
+            <p>Pour plus d'informations, visitez notre <a href="https://semji.com/fr/guide/google-tag-manager-le-guide-complet/">site web</a>.</p>
+        </section>
+
+        <hr>
+
+        <section class="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom">
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Ma page de test</p>
+    </footer>
+
+    <script>
+        document.getElementById('button1').addEventListener('click', function() {
+            alert('Découvrez les avantages de GTM!');
+            dataLayer.push({'event': 'button_click', 'button_id': 'button1'});
+        });
+
+        document.getElementById('button2').addEventListener('click', function() {
+            alert('Découvrez comment fonctionne GA4!');
+            dataLayer.push({'event': 'button_click', 'button_id': 'button2'});
+        });
+    </script>
+</body>
+</html>
