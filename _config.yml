@@ -1,0 +1,14 @@
+title: "Page testag"
+description: "Une page web pour tester Google Tag Manager et Google Analytics 4"
+baseurl: "/testag" 
+url: "https://mnassrib.github.io" 
+theme: jekyll-theme-cayman  # Thème à utiliser (optionnel, choisissez un thème qui vous convient)
+include:
+  - _layouts
+  - assets
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
