@@ -1,7 +1,9 @@
 Vous trouverez ci-après une explication de la structure du projet, ainsi que des instructions sur la configuration et l'exécution du site. Des détails sur les fonctionnalités implémentées sont également fournis.
 
 
-# Ma page de test
+# Ma page testag 
+
+[https://votre-utilisateur.github.io/testag/](https://votre-utilisateur.github.io/testag/)
 
 Ce projet est une page web simple hébergée sur GitHub Pages, conçue pour la web analyse. Il permet de tester la configuration de Google Tag Manager (GTM) et Google Analytics 4 (GA4) pour le suivi des utilisateurs.
 
@@ -73,7 +75,7 @@ Fichier CSS principal pour styliser le site. Contient les styles pour le corps d
    - Allez dans les paramètres de votre repository sur GitHub.
    - Sous l'onglet "Pages", sélectionnez la branche `main` comme source et enregistrez.
 
-Votre site sera maintenant accessible à l'adresse : [https://votre-utilisateur.github.io/testag/](https://votre-utilisateur.github.io/testag/)
+Votre site sera maintenant accessible à l'adresse `https://votre-utilisateur.github.io/testag/`.
 
 ## Fonctionnalités
 
