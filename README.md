@@ -13,6 +13,8 @@ Ce projet est une page web simple hébergée sur GitHub Pages, conçue pour la w
 testag/
 ├── _config.yml
 ├── index.html
+├── contact.html
+├── assistance.html
 ├── README.md
 ├── _layouts/
 │   └── default.html
