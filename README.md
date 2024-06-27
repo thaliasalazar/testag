@@ -52,7 +52,7 @@ Fichier CSS principal pour styliser le site. Contient les styles pour le corps d
 1. **Clonez le repository :**
 
    ```bash
-   git clone https://github.com/votre-utilisateur/testag.git
+   git clone https://github.com/mnassrib/testag.git
    ```
 
 2. **Accédez au répertoire du projet :**
