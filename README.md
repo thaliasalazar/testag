@@ -5,7 +5,7 @@ Vous trouverez ci-après une explication de la structure du projet, ainsi que de
 
 [https://mnassrib.github.io/testag/](https://mnassrib.github.io/testag/)
 
-Ce projet est une page web simple hébergée sur GitHub Pages, conçue pour la web analyse. Il permet de tester la configuration de Google Tag Manager (GTM) et Google Analytics 4 (GA4) pour le suivi des utilisateurs.
+Ce projet est un site web simple hébergé sur GitHub Pages, conçue pour la web analyse. Il permet de tester la configuration de Google Tag Manager (GTM) et Google Analytics 4 (GA4) pour le suivi des utilisateurs.
 
 ## Structure du projet
 
@@ -30,6 +30,14 @@ Fichier de configuration pour Jekyll, utilisé par GitHub Pages pour générer l
 ### index.html
 
 Page d'accueil du site contenant diverses sections pour tester GTM et GA4.
+
+### contact.html
+
+Page contact.
+
+### assistance.html
+
+Page assistance.
 
 ### _layouts/default.html
 
