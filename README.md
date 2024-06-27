@@ -1,7 +1,7 @@
 Vous trouverez ci-après une explication de la structure du projet, ainsi que des instructions sur la configuration et l'exécution du site. Des détails sur les fonctionnalités implémentées sont également fournis.
 
 
-# Ma page testag 
+# testag 
 
 [https://mnassrib.github.io/testag/](https://mnassrib.github.io/testag/)
 
